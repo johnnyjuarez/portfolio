@@ -17,7 +17,23 @@
 
 <body>
     <!-- Nav -->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm nav-pills nav-justified sticky-top">
+        <div class="container">
+            <div class="navbar-brand">Johnny Juarez</div>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+ 
+            <div class="collapse navbar-collapse" id="myTogglerNav">
+            <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#projects">Projects</a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div> <!-- Navbar-nav-->
+            </div> <!-- collapse-->
+        </div> <!--Container-->
+    </nav>
     <!-- Header -->
     <header>
         <div class="page-header" style="background-color:blanchedalmond">
@@ -27,7 +43,7 @@
         </div>
     </header>
     <!-- About -->
-    <section class="about container">
+    <section class="about container" id="about">
         <p class="text-center text-muted lead">Hello, I'm Johnny. <br>Welcome to my personal portfolio.</p>
         <p class="text-center small">I am a self taught Front End Developer. I began my learning adventure on <a class="text-danger"
                 href="freecodecamp.com">freeCodeCamp</a>, and have recently started using <a href="lynda.com">Lynda.com</a>
@@ -44,7 +60,7 @@
         </ul>
     </section>
     <!-- Project -->
-    <section class="projects container">
+    <section class="projects container" id="projects">
         <div class="bg-warning row align-items-center" style="height: 100vh;">
             <div class="col-4">
                 <div class="thumbnail border rounded">
@@ -80,7 +96,9 @@
         </div> <!-- Row-->
     </section>
     <!-- Contact -->
+    <section class="contact container">
 
+    </section>
     <!-- Scripts -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
