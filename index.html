@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
     <style>
         img {
             width: 100%;
@@ -16,27 +17,30 @@
 </head>
 
 <body>
+    <!-- Particles -->
+
     <!-- Nav -->
     <nav class="navbar bg-dark navbar-dark navbar-expand-sm nav-pills nav-justified sticky-top">
         <div class="container">
             <div class="navbar-brand">Johnny Juarez</div>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+                aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
- 
             <div class="collapse navbar-collapse" id="myTogglerNav">
-            <div class="navbar-nav">
+                <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#about">About</a>
                     <a class="nav-item nav-link" href="#projects">Projects</a>
                     <a class="nav-item nav-link" href="#">Contact</a>
                 </div> <!-- Navbar-nav-->
             </div> <!-- collapse-->
-        </div> <!--Container-->
+        </div>
+        <!--Container-->
     </nav>
+    <div id="particles-js"></div>
     <!-- Header -->
     <header>
-        <div class="page-header" style="background-color:blanchedalmond">
+        <div class="page-header">
             <h1 class="text-center">Johnny Juarez</h1>
             <p class="text-muted text-center">Front End Developer | Student</p>
             <hr>
@@ -45,54 +49,60 @@
     <!-- About -->
     <section class="about container" id="about">
         <p class="text-center text-muted lead">Hello, I'm Johnny. <br>Welcome to my personal portfolio.</p>
-        <p class="text-center small">I am a self taught Front End Developer. I began my learning adventure on <a class="text-danger"
-                href="freecodecamp.com">freeCodeCamp</a>, and have recently started using <a href="lynda.com">Lynda.com</a>
+        <p class="text-center small">I am a self taught Front End Developer. I began my learning adventure on <a href="freecodecamp.com">freeCodeCamp</a>,
+            and have recently started using <a href="lynda.com">Lynda.com</a>
             to further my education. I'm very will driven, and passionate in all of my work. I'm constantly pushing to
             learn more, and acquire new skillsets.</p>
         <h3>Skillsets :</h3>
-        <ul class="list-unstyled">
-            <li class="text-info">HTML</li>
-            <li class="text-info">CSS</li>
-            <li class="text-info">JavaScript</li>
-            <li class="text-info">jQuery</li>
-            <li class="text-info">React</li>
-            <li class="text-info">Bootstrap 4</li>
+        <ul class="list-group mb-4">
+            <li class="list-group-item list-group-item-action text-info">HTML</li>
+            <li class="list-group-item list-group-item-action text-info">CSS</li>
+            <li class="list-group-item list-group-item-action text-info">JavaScript</li>
+            <li class="list-group-item list-group-item-action text-info">jQuery</li>
+            <li class="list-group-item list-group-item-action text-info">React</li>
+            <li class="list-group-item list-group-item-action text-info">Bootstrap 4</li>
         </ul>
     </section>
     <!-- Project -->
     <section class="projects container" id="projects">
-        <div class="bg-warning row align-items-center" style="height: 100vh;">
-            <div class="col-4">
-                <div class="thumbnail border rounded">
+        <div class="row align-items-center" style="height: 100vh;">
+            <div class="nospace col-4">
+                <div class="card">
                     <a href="https://johnnyjuarez.github.io/quote-generator/" target="blank">
-                        <img src="images/quotegen.PNG" alt="Random Quote Generator">
-                        <div class="caption">
-                            <p>Random Quote Generator that pulls quotes from an API using Vanilla JS.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="thumbnail border rounded">
-                    <a href="https://johnnyjuarez.github.io/local-weather-app/" target="blank">
-                        <img src="images/weatherapp.PNG" alt="Local Weather Application">
-                        <div class="caption">
-                            <p>Local Weather App that pulls weather data based on geolocation from an API using Vanilla
+                        <img class="card-img-top" src="images/quotegen.PNG" alt="Random Quote Generator">
+                        <div class="card-body">
+                            <h4 class="card-title">Quote Generator</h4>
+                            <p class="card-text">Random Quote Generator that pulls quotes from an API using Vanilla
                                 JS.</p>
-                        </div>
                     </a>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="thumbnail border rounded">
-                    <a href="https://johnnyjuarez.github.io/quote-generator/" target="blank">
-                        <img src="images/quotegen.PNG" alt="Random Quote Generator">
-                        <div class="caption">
-                            <p>Random Quote Generator that pulls quotes from an API using Vanilla JS.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
+                </div> <!-- card-body -->
+            </div> <!-- card -->
+        </div> <!-- column -->
+        <div class="nospace col-4">
+            <div class="card">
+                <a href="https://johnnyjuarez.github.io/local-weather-app/" target="blank">
+                    <img class="card-img-top" src="images/weatherapp.PNG" alt="Local Weather Application">
+                    <div class="card-body">
+                        <h4 class="card-title">Local Weather App</h4>
+                        <p class="card-text">Local Weather App that pulls weather data based on geolocation from
+                            an API using Vanilla
+                            JS.</p>
+                    </div> <!-- card-body -->
+                </a>
+            </div> <!-- card -->
+        </div> <!-- column -->
+        <div class="nospace col-4">
+            <div class="card">
+                <a href="https://johnnyjuarez.github.io/quote-generator/" target="blank">
+                    <img class="card-img-top" src="images/quotegen.PNG" alt="Random Quote Generator">
+                    <div class="card-body">
+                        <h4 class="card-title">Placeholder</h4>
+                        <p class="card-text">Random Quote Generator that pulls quotes from an API using Vanilla
+                            JS.</p>
+                    </div><!-- card-body -->
+                </a>
+            </div> <!-- card -->
+        </div> <!-- column -->
         </div> <!-- Row-->
     </section>
     <!-- Contact -->
@@ -102,6 +112,8 @@
     <!-- Scripts -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
