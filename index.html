@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <style>
         img {
             width: 100%;
@@ -31,7 +32,7 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#about">About</a>
                     <a class="nav-item nav-link" href="#projects">Projects</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
                 </div> <!-- Navbar-nav-->
             </div> <!-- collapse-->
         </div>
@@ -64,8 +65,11 @@
         </ul>
     </section>
     <!-- Project -->
-    <section class="projects container" id="projects">
-        <div class="row align-items-center" style="height: 100vh;">
+    <section class="projects container" style="height: 100vh;">
+        <div class="d-flex justify-content-center" id="projects-header">
+                <h3 id="projects">-Projects-</h3>
+        </div> <!--flex centering header-->
+        <div class="row">
             <div class="nospace col-4">
                 <div class="card">
                     <a href="https://johnnyjuarez.github.io/quote-generator/" target="blank">
@@ -107,7 +111,25 @@
     </section>
     <!-- Contact -->
     <section class="contact container">
-
+        <div class="d-flex justify-content-center">
+            <h3 id="contact">Contact</h3>
+            <div class="contact-icons">
+                <div class="fa-line fa-lg icons">
+                    <a href="mailto:johnnyjuarez1992@gmail.com" target="_blank">
+                        <i class="fa fa-envelope-square fa-5x"></i>
+                    </a>
+                    <a href="https://github.com/johnnyjuarez" target="_blank">
+                        <i class="fa fa-github-square fa-5x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/johnny.juarez" target="_blank">
+                        <i class="fa fa-facebook-square fa-5x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/johnny-juarez-025a9b111" target="_blank">
+                        <i class="fa fa-linkedin-square fa-5x"></i>
+                    </a>
+                </div> <!-- icons -->
+            </div> <!-- contact icons-->
+        </div>
     </section>
     <!-- Scripts -->
     <script src="js/jquery.js"></script>
