@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ"
+        crossorigin="anonymous"></script>
     <style>
         img {
             width: 100%;
@@ -41,14 +42,14 @@
     <div id="particles-js"></div>
     <!-- Header -->
     <header>
-        <div class="page-header">
+        <div class="page-header" id="about">
             <h1 class="text-center">Johnny Juarez</h1>
             <p class="text-muted text-center">Front End Developer | Student</p>
             <hr>
         </div>
     </header>
     <!-- About -->
-    <section class="about container" id="about">
+    <section class="about container">
         <p class="text-center text-muted lead">Hello, I'm Johnny. <br>Welcome to my personal portfolio.</p>
         <p class="text-center small">I am a self taught Front End Developer. I began my learning adventure on <a href="freecodecamp.com">freeCodeCamp</a>,
             and have recently started using <a href="lynda.com">Lynda.com</a>
@@ -65,10 +66,11 @@
         </ul>
     </section>
     <!-- Project -->
-    <section class="projects container" style="height: 100vh;">
-        <div class="d-flex justify-content-center" id="projects-header">
-                <h3 id="projects">-Projects-</h3>
-        </div> <!--flex centering header-->
+    <section class="projects container" id="projects" style="height: 100vh;">
+        <div class="d-flex justify-content-center">
+            <h3 id="projects-header">-Projects-</h3>
+        </div>
+        <!--flex centering header-->
         <div class="row">
             <div class="nospace col-4">
                 <div class="card">
@@ -111,31 +113,30 @@
     </section>
     <!-- Contact -->
     <section class="contact container">
-        <div class="d-flex justify-content-center">
-            <h3 id="contact">Contact</h3>
-            <div class="contact-icons">
-                <div class="fa-line fa-lg icons">
-                    <a href="mailto:johnnyjuarez1992@gmail.com" target="_blank">
-                        <i class="fa fa-envelope-square fa-5x"></i>
-                    </a>
-                    <a href="https://github.com/johnnyjuarez" target="_blank">
-                        <i class="fa fa-github-square fa-5x"></i>
-                    </a>
-                    <a href="https://www.facebook.com/johnny.juarez" target="_blank">
-                        <i class="fa fa-facebook-square fa-5x"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/johnny-juarez-025a9b111" target="_blank">
-                        <i class="fa fa-linkedin-square fa-5x"></i>
-                    </a>
-                </div> <!-- icons -->
-            </div> <!-- contact icons-->
+
+        <h3 id="contact">Ways to contact me:</h3>
+        <div class="contact-bar">
+            <a href="mailto:johnnyjuarez1992@gmail.com" target="_blank">
+                <i class="far fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/johnnyjuarez" target="_blank">
+                <i class="fab fa-github-square"></i>
+            </a>
+            <a href="https://www.facebook.com/johnny.juarez" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/johnny-juarez-025a9b111" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
         </div>
+
     </section>
     <!-- Scripts -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+
 </body>
 
 </html>

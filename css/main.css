@@ -1,42 +1,80 @@
+/* Colors
+#001011 Rich Black
+#093A3E Rich Black #2
+#3AAFB9 Verdigris
+#64E9EE Medium Sky Blue
+#97C8EB Light Cornflower Blue
+
+*/
+
+
 /* Reset. */
 body {
     margin: 0;
     background: #ecf3f3;
-  }
-  
-  canvas {
+}
+
+canvas {
     display: block;
     position: fixed;
     z-index: -1;
-  }
-  
-  /* Particle container. */
-  #particle-container {
-       position: absolute;
-       width: 100%;
-       height: 100%;
-  }
-  
+}
 
-  /* Mobile Card viewing */
-  @media only screen and (max-width: 700px) {
+/* Particle container. */
+#particle-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Global Styles*/
+a:link {
+    text-decoration: none;
+    color: #3AAFB9;
+}
+
+/* Project Styles */
+#projects-header {
+    margin-top: 10%;
+    margin-bottom: 30vh;
+}
+
+.card {
+    margin-top: 50%;
+}
+
+/* Contact Styles */
+
+#contact {
+    text-align: center;
+}
+
+.contact-bar {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Mobile Card viewing */
+@media only screen and (max-width: 700px) {
 
     .nospace {
         padding: 0 !important;
         margin: 0 !important;
     }
 
-    .card-title{
+    .card-title {
         font-size: 90%;
         padding: 0;
     }
+
     .card-text {
         display: none;
         padding: 0;
     }
-    
-  }
 
-  #projects-header {
-      margin-bottom: 0 !important;
-  }
+}
+
+#projects-header {
+    margin-bottom: 0 !important;
+}
