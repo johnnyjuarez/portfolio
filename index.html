@@ -20,7 +20,7 @@
 </head>
 
 <body id="bootstrap-override">
-    <!-- Particles -->
+    <div id="top"></div>
 
     <!-- Nav -->
     <nav class="navbar bg-dark navbar-dark navbar-expand-sm nav-pills nav-justified sticky-top">
@@ -32,8 +32,8 @@
             </button>
             <div class="collapse navbar-collapse" id="myTogglerNav">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">About<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -46,6 +46,7 @@
         </div>
         <!--Container-->
     </nav>
+    <!-- Particles -->
     <div id="particles-js"></div>
     <!-- Header -->
     <header>
@@ -57,12 +58,15 @@
     </header>
     <!-- About -->
     <section class="about container" id="about">
-        <p class="text-center lead">Hello, I'm Johnny. <br>Welcome to my personal portfolio.</p>
-        <p class="text-center small">I am a self taught Front End Developer. I began my learning adventure on <a class="link-color"
-                href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>,
-            and have recently started using <a class="link-color" href="https://www.lynda.com/" target="_blank">Lynda.com</a>
-            to further my education. I'm very will driven, and passionate in all of my work. I'm constantly pushing to
-            learn more, and acquire new skillsets.</p>
+        <div class="aboutbox">
+                <p class="text-center lead">Hello, I'm Johnny. <br>Welcome to my personal portfolio.</p>
+                <p class="text-center small">I am a self taught Front End Developer. I began my learning adventure on <a class="link-color"
+                        href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>,
+                    and have recently started using <a class="link-color" href="https://www.lynda.com/" target="_blank">Lynda.com</a>
+                    to further my education. I'm very will driven, and passionate in all of my work. I'm constantly pushing to
+                    learn more, and acquire new skillsets.</p>
+        </div>
+
         <h3>Skillsets :</h3>
         <ul class="list-group mb-4">
             <li class="list-group-item list-group-item-action text-info">HTML</li>
@@ -85,7 +89,7 @@
         </div>
         <!--flex centering header-->
         <div class="row">
-            <div class="nospace col-4">
+            <div class="nospace col-6">
                 <div class="card">
                     <a class="link-color" href="https://johnnyjuarez.github.io/quote-generator/" target="blank">
                         <img class="card-img-top" src="images/quotegen.PNG" alt="Random Quote Generator">
@@ -97,7 +101,7 @@
                 </div> <!-- card-body -->
             </div> <!-- card -->
         </div> <!-- column -->
-        <div class="nospace col-4">
+        <div class="nospace col-6">
             <div class="card">
                 <a class="link-color" href="https://johnnyjuarez.github.io/local-weather-app/" target="blank">
                     <img class="card-img-top" src="images/weatherapp.PNG" alt="Local Weather Application">
@@ -107,18 +111,6 @@
                             an API using Vanilla
                             JS.</p>
                     </div> <!-- card-body -->
-                </a>
-            </div> <!-- card -->
-        </div> <!-- column -->
-        <div class="nospace col-4">
-            <div class="card">
-                <a class="link-color" href="https://johnnyjuarez.github.io/quote-generator/" target="blank">
-                    <img class="card-img-top" src="images/quotegen.PNG" alt="Random Quote Generator">
-                    <div class="card-body">
-                        <h4 class="card-title">Placeholder</h4>
-                        <p class="card-text">Random Quote Generator that pulls quotes from an API using Vanilla
-                            JS.</p>
-                    </div><!-- card-body -->
                 </a>
             </div> <!-- card -->
         </div> <!-- column -->

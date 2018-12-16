@@ -33,10 +33,19 @@ canvas {
     color: #093A3E;
 }
 
+/* About Styles */
+
+.aboutbox {
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 2%;
+    padding: 5%;
+    color: #001011;
+}
+
 
 /* Project Styles */
 #projects-header {
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 30vh;
 }
 
