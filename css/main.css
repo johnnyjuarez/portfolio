@@ -11,7 +11,7 @@
 /* Reset. */
 body {
     margin: 0;
-    background: #ecf3f3;
+    background: #97C8EB;
 }
 
 canvas {
@@ -29,10 +29,10 @@ canvas {
 
 
 /* Global Styles*/
-a:link {
-    text-decoration: none;
-    color: #3AAFB9;
+.link-color {
+    color: #093A3E;
 }
+
 
 /* Project Styles */
 #projects-header {
