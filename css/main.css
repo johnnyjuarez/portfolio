@@ -54,9 +54,13 @@ canvas {
 }
 
 /* Contact Styles */
+.contact {
+    margin-top: 20%;
+}
 
 #contact {
     text-align: center;
+    margin-bottom: 2%;
 }
 
 .contact-bar {
