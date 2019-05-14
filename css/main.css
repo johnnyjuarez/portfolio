@@ -92,7 +92,7 @@ h4 {
   border-radius: 3px;
 }
 
-/* link styling */
+/* contact styling */
 .contact-toggle {
   font-size: 5rem;
 }
@@ -106,6 +106,15 @@ h4 {
 
 .contact-link p {
   color: #64e9ee;
+}
+
+.thankYou {
+  margin-top: 10%;
+  color: white;
+}
+
+.glowContact {
+  text-shadow: 2px 2px 4px #000000;
 }
 
 /* bootstrap override */
