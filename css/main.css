@@ -31,6 +31,15 @@ h4 {
   transition: background 700ms;
 }
 
+/* about section */
+.about {
+  margin-top: 6%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  color: black;
+}
+
 .glow {
   text-shadow: 2px 2px 2px #ffffff, 1px 1px 6px rgba(255, 255, 255, 0.8),
     0px 0px 9px rgba(255, 255, 255, 0.7), 0px 0px 9px rgba(255, 255, 255, 0.7);
@@ -74,6 +83,29 @@ h4 {
   background-color: rgb(244, 61, 61);
   text-decoration: none;
   border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* contact styling */
+.contact-row {
+  margin-top: 35%;
+  background-color: rgba(0, 16, 17, 0.4);
+  border-radius: 3px;
+}
+
+/* link styling */
+.contact-toggle {
+  font-size: 5rem;
+}
+
+.contact-link a {
+  color: #64e9ee;
+}
+.contact-link a:hover {
+  color: #97c8eb;
+}
+
+.contact-link p {
+  color: #64e9ee;
 }
 
 /* bootstrap override */
@@ -138,5 +170,13 @@ h4 {
   .projectBtn,
   .resumeBtn {
     margin-top: 13%;
+  }
+
+  .contact-row {
+    margin-top: 17%;
+  }
+
+  .contact-toggle {
+    font-size: 9rem;
   }
 }
