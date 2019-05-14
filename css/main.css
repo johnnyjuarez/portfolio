@@ -8,150 +8,135 @@
 */
 /* body */
 body {
-    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
-    text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
 
 h4 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 /* Navbar */
 .navbar {
-    background: #001011;
+  background: #001011;
 }
 
 .navbar.scrolled {
-    background: rgba(9, 58, 62, 0.5);
-    /* background: rgb(222, 192, 222); */
-    transition: background 700ms;
+  background: rgba(9, 58, 62, 0.5);
+  /* background: rgb(222, 192, 222); */
+  transition: background 700ms;
 }
 
 .glow {
-    text-shadow: 2px 2px 2px #FFFFFF, 1px 1px 6px rgba(255, 255, 255, 0.8), 0px 0px 9px rgba(255, 255, 255, 0.7), 0px 0px 9px rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 2px #ffffff, 1px 1px 6px rgba(255, 255, 255, 0.8),
+    0px 0px 9px rgba(255, 255, 255, 0.7), 0px 0px 9px rgba(255, 255, 255, 0.7);
 }
 
 /* Button styling for projects and resume */
 .projectBtn,
 .resumeBtn {
-    margin-top: 45%;
-    transition: background-color 0.3s, border 0.2s;
-    -webkit-transition: background-color 0.3s, border 0.2s;
-    -moz-transition: background-color 0.3s, border 0.2s;
+  margin-top: 45%;
+  transition: background-color 0.3s, border 0.2s;
+  -webkit-transition: background-color 0.3s, border 0.2s;
+  -moz-transition: background-color 0.3s, border 0.2s;
 }
 
 .projectBtn {
-    margin-right: 15%;
-    color: white;
-    background-color: rgba(100, 233, 238, 0.8);
-    border-radius: 3%;
-    text-decoration: none;
-    border: 2px solid white;
+  margin-right: 15%;
+  color: white;
+  background-color: rgba(100, 233, 238, 0.8);
+  border-radius: 3%;
+  text-decoration: none;
+  border: 2px solid white;
 }
 
 .projectBtn:hover {
-    color: white;
-    background-color: rgba(58, 175, 185);
-    text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  background-color: rgba(58, 175, 185);
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .resumeBtn {
-    color: white;
-    background-color: rgba(244, 61, 61, 0.8);
-    border-radius: 3%;
-    text-decoration: none;
-    border: 2px solid white;
-
+  color: white;
+  background-color: rgba(244, 61, 61, 0.8);
+  border-radius: 3%;
+  text-decoration: none;
+  border: 2px solid white;
 }
 
 .resumeBtn:hover {
-    color: white;
-    background-color: rgb(244, 61, 61);
-    text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  background-color: rgb(244, 61, 61);
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.5);
 }
-
-/* card styling */
-.link-color {
-    color: black;
-}
-
-.link-color:hover {
-    color: black;
-}
-
 
 /* bootstrap override */
 .nav-pills .nav-link.active {
-    background-color: #001011;
-    font-weight: 700;
+  background-color: #001011;
+  font-weight: 700;
 }
 
 .card .card-img-top {
-    max-width: 413px;
+  max-width: 413px;
 }
+
+/* card styling */
 
 .card {
-    margin-top: 15%;
-    background-color: rgba(255, 255, 255, 0.5);
-    transition: background 0.3s;
-}
-
-.overlay:hover {
-    opacity: 1;
+  margin-top: 15%;
+  background-color: rgba(0, 16, 17, 0.7);
+  transition: background 0.3s;
 }
 
 .card:hover {
-    background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(0, 16, 17);
+}
+
+.card-title {
+  color: white;
 }
 
 .card-body {
-    padding: 0;
+  font-size: 1em;
+  color: white;
+  padding: 0;
 }
 
-.overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 467.2px;
-    width: 348px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: yellow;
+.card-body a {
+  color: rgb(99, 215, 238);
+  text-decoration: none;
 }
 
-
-a {
-    text-decoration: none;
+.card-body a:hover {
+  color: rgb(99, 245, 255);
 }
 
-a:hover {
-    text-decoration: none;
+.card {
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
 }
 
 @media screen and (min-width: 460px) {
+  body {
+    background-size: cover;
+  }
 
-    body {
-        background-size: 100vmax;
-    }
+  h4 {
+    font-size: 1.5rem;
+  }
 
-    h4 {
-        font-size: 1.5rem;
-    }
+  .projectBtn {
+    margin-right: 10%;
+  }
 
-    .projectBtn {
-        margin-right: 10%;
-    }
-
-    .projectBtn,
-    .resumeBtn {
-        margin-top: 13%;
-    }
+  .projectBtn,
+  .resumeBtn {
+    margin-top: 13%;
+  }
 }
