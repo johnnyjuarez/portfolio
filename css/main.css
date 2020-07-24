@@ -64,6 +64,18 @@ section {
   line-height: 30px;
 }
 
+ol {
+  list-style-position: inside;
+}
+
+.about h3 {
+  margin: 5% auto;
+}
+
+.about h4 {
+  margin: 5% auto;
+}
+
 .intro {
   font-size: 32px;
   margin-bottom: 5%;
