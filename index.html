@@ -2,89 +2,105 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Johnny Juarez | Portfolio</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js"
-    integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/main.css">
 </head>
+<header>
+  <h1>Johnny Juarez | </h1>
 
-<body id="bootstrap-override">
-  <div id="top"></div>
-  <!-- Nav -->
-  <nav class="navbar navbar-dark navbar-expand-sm nav-pills nav-justified sticky-top" id="mainNavbar">
-    <div class="container">
-      <div class="navbar-brand">Johnny Juarez |</div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
-        aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="myTogglerNav">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/contact.html">Contact</a>
-          </li>
-        </ul>
-        <!-- Navbar-nav-->
-      </div>
-      <!-- collapse-->
-    </div>
-    <!--Container-->
+  <!-- navbar -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+
   </nav>
-  <!-- Header -->
-  <header>
-    <div class="page-header">
-      <h1 class="glow d-1 text-center">Johnny Juarez</h1>
-      <p class="glow text-center">Front End Developer | Student</p>
-      <hr />
+</header>
+<section class="about" id="about">
+  <p class="intro">
+    Hello, I'm Johnny. <br />Welcome to my personal portfolio.
+  </p>
+  <p>
+    I am a self taught Front End Developer currently located in Austin,
+    Texas. I am pursuing the opportunity to begin my career in the web
+    deveolpment industry. I began my learning adventure on
+    <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>, and have recently started
+    <a class="link-color" href="https://www.udemy.com/" target="_blank">Udemy</a>
+    to further my education. I'm very will driven, and passionate in all
+    of my work. I'm constantly pushing to learn more, and acquire new
+    skillsets.
+  </p>
+  <hr>
+</section>
+<section class="projects" id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="project-cards">
+    <!-- local weather card -->
+    <div class="project-card">
+      <h4 class="card-title">Local Weather App</h4>
+      <a href="https://johnnyjuarez.github.io/local-weather-app/" target="blank">
+        <img class="card-img-top" src="../images/weatherapp.PNG" alt="Local Weather Application">
+      </a>
+      <!-- card body -->
+      <div class="card-body">
+        <a href="https://github.com/johnnyjuarez/local-weather-app" target="blank">Source
+        </a>
+        <a href="https://johnnyjuarez.github.io/local-weather-app/" target="blank">Live
+        </a>
+      </div>
     </div>
-  </header>
-
-  <section class="container about">
-    <div class="">
-      <p class="">
-        Hello, I'm Johnny. <br />Welcome to my personal portfolio.
-      </p>
-      <p class="">
-        I am a self taught Front End Developer currently located in Austin,
-        Texas. I am pursuing the opportunity to begin my career in the web
-        deveolpment industry. I began my learning adventure on
-        <a class="" href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>, and have recently started
-        <a class="link-color" href="https://www.udemy.com/" target="_blank">Udemy</a>
-        to further my education. I'm very will driven, and passionate in all
-        of my work. I'm constantly pushing to learn more, and acquire new
-        skillsets.
-      </p>
+    <!-- quote generator -->
+    <div class="project-card">
+      <h4 class="card-title">Quote Generator</h4>
+      <a href="https://johnnyjuarez.github.io/quote-generator/" target="blank">
+        <img class="card-img-top" src="../images/quotegen.PNG" alt="Local Weather Application">
+      </a>
+      <!-- card body -->
+      <div class="card-body">
+        <a href="https://github.com/johnnyjuarez/quote-generator" target="blank">Source
+        </a>
+        <a href="https://johnnyjuarez.github.io/quote-generator/" target="blank">Live
+        </a>
+      </div>
     </div>
-  </section>
+    <!-- color game -->
+    <div class="project-card">
+      <h4 class="card-title">Color Game</h4>
+      <a class="link-color" href="https://johnnyjuarez.github.io/Color-Game/" target="blank">
+        <img class="card-img-top" src="../images/colorgame.PNG" alt="Local Weather Application">
+      </a>
+      <!-- card body -->
+      <div class="card-body">
+        <a href="https://github.com/johnnyjuarez/Color-Game" target="blank">Source
+        </a>
+        <a href="https://johnnyjuarez.github.io/Color-Game/" target="blank">Live
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+</section>
+<section class="contact" id="contact">
+  <h2 class="section-title">Contact Johnny</h2>
+  <p>Thank you for taking the time to look at my portfolio.</p>
+  <p>Please feel free to reach out!</p>
+  <ul>
+    <li><a href="">Github</a></li>
+    <li><a href="">LinkedIn</a></li>
+    <li><a href="">Email</a></li>
+  </ul>
+</section>
+<footer>
+  <p>&copy Johnny Juarez</p>
+</footer>
 
-  <a href="pages/projects.html" class="btn font-weight-bold projectBtn">Projects</a>
-  <a href="https://drive.google.com/file/d/1TrCbptZIgBERZ71HnCixu5Zh3QLf3FdK/view?usp=sharing"
-    class="btn font-weight-bold resumeBtn" target="blank">Resume</a>
+<body>
 
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="js/app.js"></script>
 </body>
 
 </html>
