@@ -217,4 +217,7 @@ footer {
   header h1 {
     margin-left: 20px;
   }
+  section {
+    width: 50%;
+  }
 }
