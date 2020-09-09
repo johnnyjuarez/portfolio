@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #2a9d8f;
-  color: #264653;
+  background: #B0C0BC;
+  color: #453F3C;
 }
 
 /* header and nav styling */
@@ -19,8 +19,8 @@ header h1 {
 header {
   display: flex;
   flex-direction: column;
-  background-color: #264653;
-  color: #2a9d8f;
+  background-color: #453F3C;
+  color: #B0C0BC;
 }
 
 ul {
@@ -37,17 +37,17 @@ header nav li {
 
 header nav li a {
   transition: all 0.3s ease 0s;
-  color: #2a9d8f;
+  color: #B0C0BC;
   padding: 5px;
-  border: 1px solid #2a9d8f;
+  border: 1px solid #B0C0BC;
   border-radius: 3%;
 }
 
 header nav li a:hover {
   transition: all 0.3s ease 0s;
-  color: #e9c46a;
-  border: 1px solid #e9c46a;
-  background: #2a9d8f
+  color: #453F3C;
+  border: 1px solid #453F3C;
+  background: #B0C0BC
 }
 
 li, a, button {
@@ -105,10 +105,10 @@ hr {
 }
 
 .project-card {
-  background: #e9c46a;
+  background: #A7A7A9;
   padding: 20px 0;
   margin-top: 3%;
-  border: 5px solid #f4a261;
+  border: 5px solid #453F3C;
   border-radius: 3%;
 }
 
@@ -131,12 +131,13 @@ hr {
 
 .contact li a {
   transition: all 0.3s ease 0s;
-  color: #264653;
+  color: #453F3C;
 }
 
 .contact li a:hover {
   transition: all 0.3s ease 0s;
-  color: #e76f51;
+  color: #fff;
+  text-shadow: 5px 2px 4px rgba(150, 150, 150, 1);
 }
 
 /* form styling */
@@ -154,24 +155,42 @@ form label {
 
 input, textarea {
   border-radius: 1.5%;
+  outline: none;
+  transition: all 0.3s ease 0s;
 }
 
 input[type=text], input[type=email] {
   border: none;
   padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
 }
 
 input[type=submit] {
   margin-top: 10px;
   width: 25%;
   height: 30px;
+  border: none;
+  border-radius: 1.5%;
+  background-color: #453F3C;
+  color: #B0C0BC;
+}
+
+input[type=submit]:active {
+  background-color: #B0C0BC;
+  color: #453F3C;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border: 3px solid #453F3C;
 }
 
 /* footer styling */
 
 footer {
-  background: #264653;
-  color: #2a9d8f;
+  background: #453F3C;
+  color: #B0C0BC;
   text-align: center;
   padding-top: 20px;
   font-size: 0.5em;
