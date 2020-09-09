@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif;
+}
+
+body {
+  background: #2a9d8f;
+  color: #264653;
+}
+
+/* header and nav styling */
+
+header h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #264653;
+  color: #2a9d8f;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+header nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+header nav li a {
+  transition: all 0.3s ease 0s;
+  color: #2a9d8f;
+  padding: 5px;
+  border: 1px solid #2a9d8f;
+  border-radius: 3%;
+}
+
+header nav li a:hover {
+  transition: all 0.3s ease 0s;
+  color: #e9c46a;
+  border: 1px solid #e9c46a;
+  background: #2a9d8f
+}
+
+li, a, button {
+  text-decoration: none;
+}
+
+section {
+  text-align: center;
+  width: 75%;
+  margin: 10% auto;
+}
+
+.section-title {
+  font-size: 2.5em;
+  margin: 5px auto;
+}
+
+/* about styling */
+
+.about {
+  line-height: 30px;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.about h3 {
+  margin: 5% auto;
+}
+
+.about h4 {
+  margin: 5% auto;
+}
+
+.intro {
+  font-size: 32px;
+  margin-bottom: 5%;
+}
+
+hr {
+  margin: 5% auto;
+  border: none;
+  height: 50px;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+}
+
+/* projects styling */
+
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  background: #e9c46a;
+  padding: 20px 0;
+  margin-top: 3%;
+  border: 5px solid #f4a261;
+  border-radius: 3%;
+}
+
+.project-card img {
+  width: 75%;
+}
+
+/* contact styling */
+
+.contact ul {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.contact li a {
+  transition: all 0.3s ease 0s;
+  color: #264653;
+}
+
+.contact li a:hover {
+  transition: all 0.3s ease 0s;
+  color: #e76f51;
+}
+
+/* form styling */
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 20px;
+}
+
+form label {
+  margin-top: 15px;
+}
+
+input, textarea {
+  border-radius: 1.5%;
+}
+
+input[type=text], input[type=email] {
+  border: none;
+  padding: 10px;
+}
+
+input[type=submit] {
+  margin-top: 10px;
+  width: 25%;
+  height: 30px;
+}
+
+/* footer styling */
+
+footer {
+  background: #264653;
+  color: #2a9d8f;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.5em;
+}
+
+/* media queries for desktop */
+
+@media all and (min-width: 800px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  header h1 {
+    margin-left: 20px;
+  }
+}
