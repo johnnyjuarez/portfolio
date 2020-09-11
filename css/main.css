@@ -71,6 +71,10 @@ section {
   line-height: 30px;
 }
 
+.about h2 {
+  margin-bottom: 5%;
+}
+
 ol {
   list-style-position: inside;
 }
@@ -86,6 +90,7 @@ ol {
 .intro {
   font-size: 32px;
   margin-bottom: 5%;
+  line-height: 40px;
 }
 
 hr {
@@ -101,9 +106,13 @@ hr {
 .skills ul {
   display: flex;
   flex-direction: column;
+  margin-top: 5%;
   align-items: space-between;
   list-style: none;
   line-height: 30px;
+  background-color: #453F3C;
+  color: #B0C0BC;
+  box-shadow: 5px 10px 14px 8px rgba(0, 0, 0, 0.75);
 }
 
 /* projects styling */
@@ -116,10 +125,17 @@ hr {
 
 .project-card {
   background: #A7A7A9;
-  padding: 20px 0;
-  margin-top: 3%;
-  border: 5px solid #453F3C;
-  border-radius: 3%;
+  padding: 20px 20px;
+  margin-top: 10%;
+  box-shadow: 5px 10px 14px 8px rgba(0, 0, 0, 0.75);
+}
+
+.project-card ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: underline;
 }
 
 .project-card img {
@@ -219,5 +235,8 @@ footer {
   }
   section {
     width: 50%;
+  }
+  .project-cards {
+    flex-wrap: nowrap;
   }
 }
