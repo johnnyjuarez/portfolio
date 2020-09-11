@@ -130,6 +130,20 @@ hr {
   box-shadow: 5px 10px 14px 8px rgba(0, 0, 0, 0.75);
 }
 
+.card-body a:last-child {
+  margin-left: 50px;
+}
+
+.card-body a {
+  transition: all 0.3s ease 0s;
+  color: #453F3C
+}
+
+.card-body a:hover {
+  transition: all 0.3s ease 0s;
+  color: #fff;
+}
+
 .project-card ul {
   display: flex;
   flex-direction: row;
